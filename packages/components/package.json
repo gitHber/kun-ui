@@ -1,0 +1,65 @@
+{
+  "name": "@kun-ui/core",
+  "version": "0.0.1-alpha.2",
+  "private": false,
+  "author": "kun-ui Team",
+  "description": "kun-ui React components",
+  "keywords": [
+    "react",
+    "react-component",
+    "kun-ui"
+  ],
+  "files": [
+    "lib",
+    "es",
+    "src"
+  ],
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "dev": "src/index.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gitHber/kun-ui.git",
+    "directory": "packages/components"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gitHber/kun-ui/issues"
+  },
+  "homepage": "https://github.com/gitHber/kun-ui",
+  "peerDependencies": {
+    "@types/react": "^16.8.6",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "peerDependenciesMeta": {
+    "@types/react": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.4.4",
+    "@types/styled-components": "^5.1.0",
+    "@kun-ui/hooks": "^0.0.1-alpha.1",
+    "@kun-ui/icons": "^0.0.1-alpha.1",
+    "@kun-ui/styled": "^0.0.1-alpha.1",
+    "clsx": "^1.1.0",
+    "lodash": "^4.17.20",
+    "react-hook-form": "^6.7.0",
+    "react-popper": "^2.2.3",
+    "react-spring": "^8.0.27",
+    "react-transition-group": "^4.4.0",
+    "web-animations-js": "^2.3.2"
+  },
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "devDependencies": {
+    "@types/react-transition-group": "^4.4.0"
+  },
+  "gitHead": "d19caa2de8f3c101291be5a52164921c259b2cdb"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "@kun-ui/icons",
+  "version": "0.0.1-alpha.2",
+  "private": false,
+  "author": "kun-ui Team",
+  "description": "kun-ui React svg icons",
+  "keywords": [
+    "react",
+    "svg icons",
+    "kun-ui"
+  ],
+  "files": [
+    "lib",
+    "es"
+  ],
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "dev": "src/index.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gitHber/kun-ui.git",
+    "directory": "packages/icons"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gitHber/kun-ui/issues"
+  },
+  "homepage": "https://github.com/gitHber",
+  "peerDependencies": {
+    "@types/react": "^16.8.6",
+    "react": "^16.8.6"
+  },
+  "dependencies": {
+    "@types/styled-components": "^5.1.0",
+    "styled-components": "^5.1.1"
+  },
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "gitHead": "d19caa2de8f3c101291be5a52164921c259b2cdb"
+}

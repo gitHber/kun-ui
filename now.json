@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "name": "kun-ui",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/static-build",
+      "config": { "distDir": "docs-dist" }
+    }
+  ],
+  "routes": [
+    { "handle": "filesystem" },
+    {
+      "src": "^.*",
+      "dest": "/"
+    }
+  ]
+}

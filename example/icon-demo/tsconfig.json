@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "es5",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "noEmit": false,
+    "declaration": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "noErrorTruncation": true,
+    "types": ["react", "node"],
+    "baseUrl": "./",
+    "paths": {
+      "@kun-ui/icons": ["../../packages/icons/src"],
+      "@kun-ui/icons/*": ["../../packages/icons/src/*"]
+    }
+  },
+  "exclude": ["**/build/", "**/*.test.ts", "**/node_modules"]
+}

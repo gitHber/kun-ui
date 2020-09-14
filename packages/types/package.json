@@ -1,0 +1,41 @@
+{
+  "name": "@kun-ui/types",
+  "version": "0.0.1-alpha.1",
+  "private": false,
+  "author": "kun-ui Team",
+  "description": "kun-ui ts types",
+  "keywords": [
+    "react",
+    "typescript",
+    "kun-ui"
+  ],
+  "files": [
+    "lib",
+    "es"
+  ],
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "dev": "src/index.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gitHber/kun-ui.git",
+    "directory": "packages/ui"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gitHber/kun-ui/issues"
+  },
+  "homepage": "https://github.com/gitHber",
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "gitHead": "d19caa2de8f3c101291be5a52164921c259b2cdb"
+}

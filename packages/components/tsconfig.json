@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "declaration": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "noErrorTruncation": true,
+    "types": ["react", "node"],
+    "baseUrl": "./",
+    "paths": {
+      "@kun-ui/hooks": ["../hooks/src"],
+      "@kun-ui/hooks/*": ["../hooks/src/*"],
+      "@kun-ui/styled": ["../styled/src"],
+      "@kun-ui/styled/*": ["../styled/src/*"],
+      "@kun-ui/icons": ["../icons/src"],
+      "@kun-ui/icons/*": ["../icons/src/*"],
+      "@kun-ui/types": ["../types/src"],
+      "@kun-ui/types/*": ["../types/src/*"]
+    }
+  },
+  "exclude": ["**/build/", "**/*.test.ts", "node_modules"]
+}
